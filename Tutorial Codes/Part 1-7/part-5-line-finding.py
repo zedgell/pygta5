@@ -4,6 +4,7 @@ import cv2
 import time
 from directkeys import ReleaseKey, PressKey, W, A, S, D
 import pyautogui
+import win32gui
 
 
 def draw_lines(img, lines):
